@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/raspisanie"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Расписание"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="686dp"
+        android:layout_below="@+id/raspisanie"
+        android:layout_marginTop="0dp"
+        android:background="@color/rasp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/ponedelnik"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Понедельник" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/vtornik"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Вторник" />
+            </TableRow>
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/sreda"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Среда" />
+             </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="102dp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/chetverg"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Четверг" />
+
+                <Button
+                    android:id="@+id/pyatnica"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Пятница" />
+
+                <Button
+                    android:id="@+id/subbota"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:text="Суббота" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
