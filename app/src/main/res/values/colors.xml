@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="rasp">#D8BFD8</color>
+    <color name="den">#8B008B</color>
+    <color name="numb">#000000</color>
+    <color name="urok">#D8BFD8</color>
+</resources>

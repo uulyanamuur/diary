@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vtornik1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Вторник"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/den"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="683dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok1_number"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Алгебра"
+                    android:background="@color/urok" />
+
+                <EditText
+
+                    android:layout_width="286dp"
+                    android:layout_height="match_parent" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok2_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow> />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok3_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>
+                />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok4_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>
+                />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok5_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok6_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok7_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Алгебра"
+                    android:gravity="center"
+                    android:background="@color/urok"/>
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/urok8_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="@color/numb"/>
+
+                <TextView
+                    android:id="@+id/urok8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Алгебра"
+                    android:background="@color/urok" />
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableRow>/>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>
